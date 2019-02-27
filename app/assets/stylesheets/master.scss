@@ -1,6 +1,18 @@
 @import "bootstrap";
 
+body {
+    background: image_url('circles-and-roundabouts.png');
+}
+
 .navbar {
   font-family: Papyrus, fantasy;
   font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+
 }
+
+.navbar-inverse a.navbar-brand {
+  font-family: Papyrus, fantasy;
+  font-weight: 100;
+  color: white;
+  }
