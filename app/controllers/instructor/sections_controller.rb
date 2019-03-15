@@ -1,5 +1,5 @@
-class Instructor::SectionsController < 
-  before_action :authenticate_user
+class Instructor::SectionsController < ApplicationController
+  before_action :authenticate_user!
   
 
   def new
