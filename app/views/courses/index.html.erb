@@ -14,7 +14,9 @@
   <div class="col-sm-8 col-12 text-center">
     <%= link_to 'Details', course_path(course), class: 'btn btn-primary btn-large' %>
   </div>
-  <%= image_tag course.image.url, class: 'img-fluid' %>
+   <% if course.image_url %>
+  <%= image_tag course.image.url :class => 'img-fluid' %>
+  <% end %>
 </div>
 <br class="clr" />
   <% end %>
